@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         body{
+            background:#f4f4f4;
+         }
+         .form-group{
+          width: 90%;
+          margin: auto;
+         }
+         h1{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 50px;
+            font-weight: 300;
+         }
+         h1 span{
+            color:#007bff;
+         }
+         form{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+         }
+         input{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+         }
+         button{
+            width: 120px;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+         table{
+            width: 100%;
+            margin-top: 50px;;
+            border-collapse: collapse;
+         }
+         th, td{
+            text-align: left;
+            padding: 15px 10px;
+         }
+         thead{
+            border-bottom: 2px solid #333;
+         }
+         .delete{
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+         }
